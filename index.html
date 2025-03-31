@@ -7,6 +7,7 @@
     <script type="module" src="https://cdn.jsdelivr.net/npm/@google/model-viewer@latest/dist/model-viewer.min.js"></script>
     <style>
       body {
+        background-color: black;
         text-align: center;
       }
       model-viewer {
@@ -17,12 +18,12 @@
   </head>
   <body>
     <h1>Model Viewer Test</h1>
-    <model-viewer src="https://raw.githubusercontent.com/google/model-viewer/master/packages/model-viewer/examples/assets/Cube.glb"
+    <model-viewer src="Animated.glb"
                   alt="Test Cube"
                   ar
                   auto-rotate
                   camera-controls
-                  animation-name="spin"
+                  animation-name="animation_AnimatedCube"
                   animation-loop
                   environment-image="neutral">
     </model-viewer>
